@@ -18,6 +18,8 @@ jobs:
             python_version: "3.7"
           - name: python3.6
             python_version: "3.6"
+          - name: python3.6-alpine3.13
+            python_version: "3.6"
           - name: python2.7
             python_version: "2.7"
           - name: python3.8-alpine
