@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-use_tag="tiangolo/uwsgi-nginx:$NAME"
+use_tag="ffischer1984/uwsgi-nginx:$NAME"
 
 DOCKERFILE="$NAME"
 
