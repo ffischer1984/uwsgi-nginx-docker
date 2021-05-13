@@ -2,7 +2,7 @@
 
 set -e
 
-use_tag="tiangolo/uwsgi-nginx:$NAME"
+use_tag="ffischer1984/uwsgi-nginx:$NAME"
 use_dated_tag="${use_tag}-$(date -I)"
 
 bash scripts/build.sh
